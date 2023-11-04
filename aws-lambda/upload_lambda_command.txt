@@ -1,0 +1,1 @@
+aws lambda create-function --function-name aws-lambda --zip-file fileb://function.zip --handler main --runtime go1.x --role arn:aws:iam::<acct-id>:role/lambda-ex

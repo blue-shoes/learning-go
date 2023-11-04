@@ -1,0 +1,1 @@
+aws lambda invoke --function-name aws-lambda --cli-binary-format raw-in-base64-out --payload fileb://payload.json output.txt

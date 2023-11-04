@@ -1,0 +1,8 @@
+AWS Lambda function
+
+Commands for deploying the function and running the function are contained in the upload_lambda_command.txt and run_lambda_command.txt 
+files, respectively.
+
+When creating the executable, care needs to be taken to make sure it is compiled to arm64 and a linux OS, as those are what AWS will
+use to run the lambda. If you are working in Windows, this can be accomplished by either compiling in a WSL:Linux instance or by
+setting your GOOS to linux before compiling.
